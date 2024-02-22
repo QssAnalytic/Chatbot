@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
  
+#root{
+  height: fit-content;
+  background-attachment: fixed;
+  background-size: cover;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

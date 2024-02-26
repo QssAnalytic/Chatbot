@@ -23,7 +23,7 @@ export default function Chatbot() {
               <h1 className="text-[25px] text-white">Tarmac AI</h1>
             </div>
             <div className="login">
-              <Link to={'/'}>
+              <Link to={'/login'}>
                 <Button className={cn("text-[25px] flex gap-3 items-center")}>
                   Log In <FaUser />
                 </Button>

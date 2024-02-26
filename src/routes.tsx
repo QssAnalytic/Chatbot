@@ -5,8 +5,8 @@ import Chatbot from "./pages/chatbot";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<Login />} />
-      <Route path="/chatbot" element={<Chatbot />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Chatbot />} />
     </Route>,
   ),
 );

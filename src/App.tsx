@@ -1,9 +1,10 @@
-import Chatbot from "./pages/chatbot";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 export default function App() {
   return (
     <div className="p-14">
-      <Chatbot />
+      <RouterProvider router={router} />
     </div>
   );
 }

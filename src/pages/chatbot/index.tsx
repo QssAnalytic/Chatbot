@@ -8,6 +8,7 @@ import { Textarea } from "@/common/components/ui/textarea";
 import { Send } from "lucide-react";
 import plugin from "@/assets/plugin.svg";
 import { Switch } from "@/common/components/ui/switch";
+import { Link } from "react-router-dom";
 
 export default function Chatbot() {
   const form = useForm();
@@ -22,9 +23,11 @@ export default function Chatbot() {
               <h1 className="text-[25px] text-white">Tarmac AI</h1>
             </div>
             <div className="login">
-              <Button className={cn("text-[25px] flex gap-3 items-center")}>
-                Log In <FaUser />
-              </Button>
+              <Link to={'/'}>
+                <Button className={cn("text-[25px] flex gap-3 items-center")}>
+                  Log In <FaUser />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

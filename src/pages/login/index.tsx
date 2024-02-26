@@ -30,7 +30,7 @@ export default function Login() {
                       <FormControl>
                         <Input
                           className={cn(
-                            "bg-[#393A3D] text-[#fff] border-none focus-visible:outline-1 focus-visible:outline-[#AD8449]",
+                            "bg-[#393A3D] focus-visible:bg-[#5A5A5A] text-[#fff] border-none focus-visible:outline-1 focus-visible:outline-[#AD8449]",
                           )}
                           {...field}
                         />
@@ -47,7 +47,7 @@ export default function Login() {
                       <FormControl>
                         <Input
                           className={cn(
-                            "bg-[#393A3D] text-[#fff] border-none focus-visible:outline-1 focus-visible:outline-[#AD8449]",
+                            "bg-[#393A3D] focus-visible:bg-[#5A5A5A] text-[#fff] border-none focus-visible:outline-1 focus-visible:outline-[#AD8449]",
                           )}
                           {...field}
                         />
@@ -56,7 +56,9 @@ export default function Login() {
                   )}
                 />
 
-                <Button className={cn("bg-[#AD8449] py-4 px-3")}>Sign In</Button>
+                <Button className={cn("bg-[#AD8449] py-4 px-3 hover:bg-[#F3C17B] hover:text-[#61461F]")}>
+                  Sign In
+                </Button>
               </form>
             </Form>
           </div>
